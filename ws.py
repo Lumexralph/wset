@@ -8,7 +8,7 @@ import click
 # to get arguments passed
 @click.argument('directory')
 def cli(directory):
-    """Example script."""
+    """Create the commandline tool"""
     default_file_path = '/Users/olumideogundele/Projects/{}'
     new_dir = default_file_path.format(directory)
 
